@@ -1,4 +1,4 @@
-	script.Parent.MouseButton1Click:connect(function()
+
 		local localPlayer       = game:GetService("Players").LocalPlayer;
 		local localCharacter    = localPlayer.Character
 		local Mouse             = localPlayer:GetMouse();
@@ -56,4 +56,3 @@
 				end;
 			end;
 		end);
-	end)
